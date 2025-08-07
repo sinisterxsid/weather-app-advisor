@@ -1,6 +1,6 @@
 export const getAIOutfitImage = async (temp, condition) => {
   try {
-    const res = await fetch('http://localhost:5000/generate-outfit', {
+    const res = await fetch('https://weather-app-advisor-backend.onrender.com/generate-outfit', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ temp, condition }),
