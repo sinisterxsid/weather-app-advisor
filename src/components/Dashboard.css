@@ -1,0 +1,12 @@
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+@media (max-width: 768px) {
+  .dashboard-container {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+}
+  

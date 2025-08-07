@@ -1,0 +1,25 @@
+.outfit-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  
+  .outfit-card img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+  }
+  
+  .outfit-card img:hover {
+    transform: scale(1.03);
+  }
+
+
+  
+  
